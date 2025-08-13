@@ -1,0 +1,26 @@
+/* trước prefix */
+/* h1 {
+  color: brown;
+  user-select: none; //không cho bôi đen chữ
+} */
+/* sau prefix */
+h1 {
+  color: brown;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* id */
+/* để tác động lên id thì dùng # */
+#id1 {
+  color: blue;
+}
+/* class */
+/* để tác động lên class dùng dấu . */
+.class1 {
+  color: brown;
+}
+.class2 {
+  font-size: 40px;
+}
