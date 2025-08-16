@@ -24,3 +24,19 @@ h1 {
 .class2 {
   font-size: 40px;
 }
+/* CSS Pseudo-classes (Lớp giả) */
+/* :hover thêm CSS cho các thẻ khi di chuột qua */
+p:hover {
+  color: aquamarine;
+}
+/* Lưu ý: ngoài dùng các tagname (thẻ) thì cũng có thẻ dùng id hoặc class */
+/* :active - Khi nhấn giữ chuột vào đối tượng sẽ thay đổi theo CSS */
+/* :link - thay đổi mặc định của đối tượng, vd thẻ dòng chữ của thẻ a mặc định màu xanh dương 
+thì sẽ đổi thành màu theo CSS đã thêm trong link */
+/* :visited - Đổi màu đối tượng khi ta đã lick vào, vd 1 cái link nào đó, không còn giữ màu xanh mặc định
+nữa mà sẽ đổi thành màu theo CSS đã thêm trong visited */
+/* :empty - chọn các thẻ không có nội dung */
+/* :target - vừa thay đổi màu theo CSS cho đối tượng, vừa nhảy hash (#) trên địa chỉ*/
+h2:target {
+  color: blue;
+}
