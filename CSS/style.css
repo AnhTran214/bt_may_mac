@@ -4,31 +4,31 @@
   user-select: none; //không cho bôi đen chữ
 } */
 /* sau prefix */
-h1 {
+/* h1 {
   color: brown;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
+} */
 /* id */
 /* để tác động lên id thì dùng # */
-#id1 {
+/* #id1 {
   color: blue;
-}
+} */
 /* class */
 /* để tác động lên class dùng dấu . */
-.class1 {
+/* .class1 {
   color: brown;
-}
-.class2 {
+} */
+/* .class2 {
   font-size: 40px;
-}
+} */
 /* CSS Pseudo-classes (Lớp giả) */
 /* :hover thêm CSS cho các thẻ khi di chuột qua */
-p:hover {
+/* p:hover {
   color: aquamarine;
-}
+} */
 /* Lưu ý: ngoài dùng các tagname (thẻ) thì cũng có thẻ dùng id hoặc class */
 /* :active - Khi nhấn giữ chuột vào đối tượng sẽ thay đổi theo CSS */
 /* :link - thay đổi mặc định của đối tượng, vd thẻ dòng chữ của thẻ a mặc định màu xanh dương 
@@ -37,6 +37,43 @@ thì sẽ đổi thành màu theo CSS đã thêm trong link */
 nữa mà sẽ đổi thành màu theo CSS đã thêm trong visited */
 /* :empty - chọn các thẻ không có nội dung */
 /* :target - vừa thay đổi màu theo CSS cho đối tượng, vừa nhảy hash (#) trên địa chỉ*/
-h2:target {
+/* h2:target {
   color: blue;
+} */
+/* 20/08/2025 */
+/* padding, border */
+/* div {
+  color: yellow;
+  font-size: 30px;
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  thêm khoảng đệm giữa nội dung và viền (border)
+  padding: 20px;
+  Đây là cách viết tắt
+  border: 10px solid blue;
+  Cách viết tường minh
+  border-width: 10px;
+  border-style: solid;
+  border-color: blue;
+  border-radius: 30px;
+  tạo khoảng cách giữa các phần tử liền kề khác
+  margin: 15px;
+} */
+body {
+  background-color: antiquewhite;
+}
+.container h1 {
+  font-size: 40px;
+}
+.container p {
+  font-size: 24px;
+  /* khoảng cách giữa các dòng */
+  line-height: 1.5;
+}
+.container {
+  /* set cho thẻ có class container nằm giữa trang */
+  margin: 0 auto;
+  width: 700px;
+  text-align: center;
 }
