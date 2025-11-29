@@ -94,3 +94,28 @@ a:hover {
   background-color: black;
   color: pink;
 }
+/* 19/10/2025 */
+/* Màu trong CSS */
+p {
+  /* rgb*/
+  /* color: rgb(255, 0, 0); */
+  /* rgba */
+  color: rgba(red, green, blue, alpha);
+  /* alpha là tạo độ trong suốt cho màu chạy từ 0 -> 1 */
+}
+/* 29/11/2025 */
+li {
+  /* Bỏ dấu chấm tròn trước các phần tử của list */
+  list-style-type: none;
+  margin-top: 4px;
+}
+/* đổi màu icon */
+/* Đổi màu cả 3 icon thì chỉ cần tác động vào class chung */
+.fa-brands,
+.fa-solid {
+  color: aqua;
+}
+/* Đổi màu từng icon chỉ cần tác động vào class riêng của nó */
+.fa-facebook {
+  color: blue;
+}
