@@ -119,3 +119,11 @@ li {
 .fa-facebook {
   color: blue;
 }
+/* 01/12/2025 */
+.box {
+  width: 500px;
+  height: 500px;
+  border-radius: 4px dotted red;
+  background-image: url(../IMG/anh-con-cho-1.jpg);
+  background-size: contain;
+}
